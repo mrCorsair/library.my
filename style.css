@@ -1,0 +1,103 @@
+html{
+	background: linear-gradient(0,#CCC,#999);
+	background-attachment: fixed;
+}
+
+body{
+	margin: 0;
+
+}
+.header{
+	background-color: #ddd;
+	margin:0;
+	width: 100%;
+}
+
+button{
+	background-color: #fff;
+	border-radius: 0.2rem;
+	float: right;
+}
+
+button:hover{
+	background: linear-gradient(0,#eee,#ddd,#eee);
+}
+
+input{
+	width: 100%;
+}
+
+table{
+	width: 100%;
+}
+
+tbody{
+	width: 100%;
+}
+table tr td{
+	padding-right: 1rem;
+	border-bottom: 1pt solid #999;
+	margin: 0;
+}
+
+.mini{
+	width: auto;
+}
+
+.header .menu{
+	align-content: left;
+	height: 4rem;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 82%;
+}
+
+.header .menu button{
+	border-radius: 0;
+	border-top: 0;
+	border-bottom: 0;
+	border-right: 0.1rem;
+	border-left: 0.1rem;
+	width: auto;
+	height: 100%;
+	margin: 0;
+	font-size: 1.5rem;
+	background: linear-gradient(0,#CCC,#FFF,#CCC);
+	padding: 0.5rem;
+	float: left;
+}
+
+.leftbutton{
+	float: left;
+}
+
+.header .menu button:hover{
+	border-radius: 0;
+	boreder: 0 !important;
+	boreder: none;
+	wiudth: auto;
+	height: 100%;
+	margin: 0;
+	font-size: 1.5rem;
+	background: linear-gradient(0,#DDD,#CCC);;
+}
+
+
+
+.content{
+	width: 80%;
+	background-color: #EEE;
+	border-radius:  2rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2rem;
+	margin-bottom: 0;
+	padding: 5rem;
+}
+
+.submit{
+	float: right;
+	margin: 1rem;
+}
